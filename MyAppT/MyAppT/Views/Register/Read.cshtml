@@ -1,0 +1,36 @@
+﻿@model List<Register>
+
+@{
+    ViewData["Title"] = "Records";
+}
+
+<h1 class="bg-info text-white">Records</h1>
+<a asp-action="Create" class="btn btn-secondary">Create</a>
+
+<table class="table table-sm table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (Register r in Model)
+    {
+        <tr>
+            <td>@r.Id</td>
+            <td>@r.Name</td>
+            <td>@r.Age</td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="Update" asp-route-id="@r.Id">Update</a>
+            </td>
+            <td>
+                <form asp-action="Delete" asp-route-id="@r.Id" method="post">
+                    <button type="submit" class="btn btn-sm btn-danger">
+                        Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>

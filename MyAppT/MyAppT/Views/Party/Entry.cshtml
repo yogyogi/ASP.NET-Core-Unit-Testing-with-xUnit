@@ -1,0 +1,39 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Add Party Entry";
+}
+
+<h1 class="bg-info text-white">Add Party Entry</h1>
+<div asp-validation-summary="All" class="text-danger btn-light"></div>
+
+<form class="m-1 p-1" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input name="Name" type="text" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Membership</label>
+        <input name="Membership" type="text" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@{
+    if (Model != null)
+    {
+        <h2 class="bg-danger text-white">Welcome to the Party</h2>
+        <h2 class="bg-info text-white">Tomorrow at 9:00 PM</h2>
+        <table class="table table-sm table-bordered">
+            <tr>
+                <th>Name</th>
+                <th>Membership</th>
+            </tr>
+
+            <tr>
+                <td>@Model.ToString().Split(',')[0]</td>
+                <td>@Model.ToString().Split(',')[1]</td>
+            </tr>
+        </table>
+    }
+}

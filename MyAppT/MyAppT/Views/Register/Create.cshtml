@@ -1,0 +1,24 @@
+﻿@model Register
+
+@{
+    ViewData["Title"] = "Create Record";
+}
+
+<h1 class="bg-info text-white">Create Record</h1>
+<a asp-action="Read" class="btn btn-secondary">View all</a>
+
+<div asp-validation-summary="All" class="text-danger btn-light"></div>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Age"></label>
+        <input type="text" asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
