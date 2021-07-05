@@ -1,6 +1,12 @@
 # ASP.NET Core Unit Testing with xUnit
 
-In this tutorial I will perform Unit Testing for my ASP.NET core app with xUnit frameowrk.
+I perform Unit Testing for my ASP.NET core app with xUnit frameowrk. These are divided into 3 topics:
+
+1. Unit Testing with xUnit in ASP.NET Core
+2. Moq and xUnit for Unit Testing Controllers in ASP.NET Core
+3. Unit Testing of Web API with xUnit and Moq
+
+I have also written 3 tutorial separately to explain in details how xUnit works. Kidly refer them.
 
 # Tutorial 1 
 <a href="https://www.hosting.work/aspnet-core-xunit-unit-testing/" target="_blank">How to perform Unit Testing with xUnit in ASP.NET Core</a> 
