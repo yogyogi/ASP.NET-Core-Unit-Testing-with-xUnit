@@ -4,7 +4,7 @@ In this tutorial I will perform Unit Testing for my ASP.NET core app with xUnit 
 
 Read the entire article here - https://www.hosting.work/aspnet-core-xunit-unit-testing/
 
-# Tutorial Contents
+## Tutorial Contents
 
 1. Fact, Theory, InlineData
 2. Project Setup
