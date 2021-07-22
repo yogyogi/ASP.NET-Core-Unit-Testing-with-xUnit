@@ -1,18 +1,20 @@
 # ASP.NET Core Unit Testing with xUnit
 
-I perform Unit Testing for my ASP.NET core app with xUnit frameowrk. These are divided into 3 topics:
+I perform Unit Testing for my ASP.NET core app with xUnit frameowrk. These are divided into 6 topics:
 
 1. Unit Testing with xUnit in ASP.NET Core
 2. Moq and xUnit for Unit Testing Controllers in ASP.NET Core
 3. Unit Testing of Web API with xUnit and Moq
+4. How to tests Entity Framework Core Codes
+5. How to perform Integration Testing in ASP.NET Core
+6. Automated UI Testing with Selenium in ASP.NET Core
 
-I have also written 3 tutorial separately to explain in details how xUnit works. Kidly refer them.
+I have also written separate tutorials for each of these 6 types of tests. Kidly refer them.
 
 # Tutorial 1 
 <a href="https://www.hosting.work/aspnet-core-xunit-unit-testing/" target="_blank">How to perform Unit Testing with xUnit in ASP.NET Core</a> 
 
 ## Contents
-
 1. Fact, Theory, InlineData
 2. Project Setup
 3. Adding Project for Unit Testing
@@ -31,7 +33,6 @@ I have also written 3 tutorial separately to explain in details how xUnit works.
 <a href="https://www.hosting.work/aspnet-core-moq-xunit-unit-testing/" target="_blank">How to use Moq and xUnit for Unit Testing Controllers in ASP.NET Core</a> 
 
 ## Contents
-
 1. Setup
 2. Moq
 3. In Memory Database
@@ -47,7 +48,6 @@ I have also written 3 tutorial separately to explain in details how xUnit works.
 <a href="aspnet-core-web-api-xunit-moq-unit-testing" target="_blank">Unit Testing of Web API with xUnit and Moq</a> 
 
 ## Contents
-
 1. Project setup install xUnit and Moq
 2. Create Web API
 3. Testing Web API with xUnit and Moq
@@ -66,6 +66,8 @@ I have also written 3 tutorial separately to explain in details how xUnit works.
 8. Unit Tests for “Read” action
 9. Unit Tests for “Update” action
 10. Unit Tests for “Delete” action
+
+# Tutorial 5 and 6 (Coming soon) 
 
 Want to support me ?
 
