@@ -1,0 +1,101 @@
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\appsettings.Development.json
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\appsettings.json
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.exe
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.deps.json
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.runtimeconfig.json
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.runtimeconfig.dev.json
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\ref\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.pdb
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.Views.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.Views.pdb
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.GeneratedMSBuildEditorConfig.editorconfig
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.AssemblyInfoInputs.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.AssemblyInfo.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.csproj.CoreCompileInputs.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.MvcApplicationPartsAssemblyInfo.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorAssemblyInfo.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorAssemblyInfo.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\staticwebassets\MyAppT.StaticWebAssets.Manifest.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\staticwebassets\MyAppT.StaticWebAssets.xml
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\scopedcss\bundle\MyAppT.styles.css
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.TagHelpers.input.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.TagHelpers.output.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorCoreGenerate.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Party\Entry.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Register\Create.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Register\Read.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Register\Update.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorTargetAssemblyInfo.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorTargetAssemblyInfo.cs
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.Views.pdb
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.csproj.CopyComplete
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\ref\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.pdb
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.genruntimeconfig.cache
+E:\Yogesh\SEO\Yogihosting\new\xUnit Testing in ASP.NET Core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.csprojAssemblyReference.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\appsettings.Development.json
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\appsettings.json
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.exe
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.deps.json
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.runtimeconfig.json
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.runtimeconfig.dev.json
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\ref\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.pdb
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.Views.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\MyAppT.Views.pdb
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.GeneratedMSBuildEditorConfig.editorconfig
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.AssemblyInfoInputs.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.AssemblyInfo.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.csproj.CoreCompileInputs.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.MvcApplicationPartsAssemblyInfo.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorAssemblyInfo.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorAssemblyInfo.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\staticwebassets\MyAppT.StaticWebAssets.Manifest.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\staticwebassets\MyAppT.StaticWebAssets.xml
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\scopedcss\bundle\MyAppT.styles.css
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.TagHelpers.input.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.TagHelpers.output.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorCoreGenerate.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Party\Entry.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Register\Create.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Register\Read.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Register\Update.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Registration\Create.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Registration\Read.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Registration\Update.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorTargetAssemblyInfo.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.RazorTargetAssemblyInfo.cs
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.Views.pdb
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.csproj.CopyComplete
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\ref\MyAppT.dll
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.pdb
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.genruntimeconfig.cache
+E:\Yogesh\SEO\Yogihosting\new\xunit ef core\MyAppT\MyAppT\obj\Debug\net5.0\MyAppT.csprojAssemblyReference.cache
