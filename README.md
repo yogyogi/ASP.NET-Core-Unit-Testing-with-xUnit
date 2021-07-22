@@ -1,6 +1,6 @@
 # ASP.NET Core Unit Testing with xUnit
 
-I perform Unit Testing for my ASP.NET core app with xUnit frameowrk. These are divided into 6 topics:
+I perform Unit Testing for my ASP.NET core app with xUnit framework. These are divided into 6 topics:
 
 1. Unit Testing with xUnit in ASP.NET Core
 2. Moq and xUnit for Unit Testing Controllers in ASP.NET Core
