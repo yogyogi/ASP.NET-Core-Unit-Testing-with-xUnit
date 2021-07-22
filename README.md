@@ -52,6 +52,21 @@ I have also written 3 tutorial separately to explain in details how xUnit works.
 2. Create Web API
 3. Testing Web API with xUnit and Moq
 
+# Tutorial 4 
+<a href="https://www.hosting.work/aspnet-core-xunit-ef-core-unit-testing/" target="_blank">How to tests Entity Framework Core Codes</a> 
+
+## Contents
+1. Setup of the App and In-Memory database for Testing
+2. In Memory Database
+3. Database Context and Model class
+4. Creating a Simple CRUD Operations feature in ASP.NET Core
+5. Testing Controller with xUnit
+6. Seeding the Database
+7. Unit Tests for “Create” actions
+8. Unit Tests for “Read” action
+9. Unit Tests for “Update” action
+10. Unit Tests for “Delete” action
+
 Want to support me ?
 
 <a href="https://www.buymeacoffee.com/YogYogi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200"  style="height: 60px !important;width: 200px !important;" ></a>
