@@ -67,7 +67,22 @@ I have also written separate tutorials for each of these 6 types of tests. Kidly
 9. Unit Tests for “Update” action
 10. Unit Tests for “Delete” action
 
-# Tutorial 5 and 6 (Coming soon) 
+# Tutorial 5
+<a href="https://www.hosting.work/aspnet-core-integration-testing/" target="_blank">How to perform Integration Testing in ASP.NET Core</a> 
+
+## Contents
+1. Project Setup
+2. Creating Test Server with WebApplicationFactory<T> class
+3. Integration Test Class
+4. Integration Testing of the Read Action
+5. Integration Testing of the CREATE Action (HTTP GET type)
+6. Invalid Model – Integration Testing of the CREATE Action (HTTP POST type)
+7. Valid Model – Integration Testing of the CREATE Action (HTTP POST type)
+8. AntiForgeryToken in Integration Testing
+9. How to include AntiForgeryToken in Integration Testing
+10. Modify the Integration Test for ValidateAntiForgeryToken
+
+# Tutorial 6 (Coming soon) 
 
 Want to support me ?
 
