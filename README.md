@@ -82,7 +82,15 @@ I have also written separate tutorials for each of these 6 types of tests. Kidly
 9. How to include AntiForgeryToken in Integration Testing
 10. Modify the Integration Test for ValidateAntiForgeryToken
 
-# Tutorial 6 (Coming soon) 
+# Tutorial 6 
+<a href="https://www.hosting.work/ui-test-selenium-aspnet-core/" target="_blank">Automated UI Testing with Selenium in ASP.NET Core</a> 
+
+## Contents
+1. Project Setup and Selenium Installation
+2. Writing UI tests with Selenium
+3. UI Test to Check if the View is rendered
+4. UI Test to Check browser behaviour when Model is invalid
+5. UI Test to Check browser behaviour for Valid Model
 
 Want to support me ?
 
