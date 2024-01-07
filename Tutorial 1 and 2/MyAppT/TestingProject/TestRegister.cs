@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Xunit;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Moq;
 using MyAppT.Controllers;
 using MyAppT.Models;
-using Moq;
+using Xunit;
 
 namespace TestingProject
 {
@@ -28,18 +24,27 @@ namespace TestingProject
         }
 
         [Fact]
-        public void Test_Create_POST_InvalidModelState()
+        public async Task Test_Create_POST_InvalidModelState()
         {
             // Arrange
+            var r = new Register()
+            {
+                Id = 4,
+                Name = "Test Four",
+                Age = 59
+            };
             var mockRepo = new Mock<IRegisterRepository>();
+            mockRepo.Setup(repo => repo.CreateAsync(It.IsAny<Register>()));
             var controller = new RegisterController(mockRepo.Object);
- 
+            controller.ModelState.AddModelError("Name", "Name is required");
+
             // Act
-            var result = controller.Create();
+            var result = await controller.Create(r);
 
             // Assert
             var viewResult = Assert.IsType<ViewResult>(result);
             Assert.Null(viewResult.ViewData.Model);
+            mockRepo.Verify();
         }
 
         [Fact]
@@ -88,25 +93,27 @@ namespace TestingProject
 
         private static List<Register> GetTestRegistrations()
         {
-            var registrations = new List<Register>();
-            registrations.Add(new Register()
+            var registrations = new List<Register>
             {
-                Id = 1,
-                Name = "Test One",
-                Age = 45
-            });
-            registrations.Add(new Register()
-            {
-                Id = 2,
-                Name = "Test Two",
-                Age = 55
-            });
-            registrations.Add(new Register()
-            {
-                Id = 3,
-                Name = "Test Three",
-                Age = 60
-            });
+                new Register()
+                {
+                    Id = 1,
+                    Name = "Test One",
+                    Age = 45
+                },
+                new Register()
+                {
+                    Id = 2,
+                    Name = "Test Two",
+                    Age = 55
+                },
+                new Register()
+                {
+                    Id = 3,
+                    Name = "Test Three",
+                    Age = 60
+                }
+            };
             return registrations;
         }
 

@@ -1,9 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MyAppT.Controllers
 {
@@ -13,7 +8,7 @@ namespace MyAppT.Controllers
         {
             return View();
         }
-
+ 
         [HttpPost]
         public IActionResult Entry(string name, string membership)
         {
@@ -21,7 +16,7 @@ namespace MyAppT.Controllers
                 ModelState.AddModelError("name", "Please enter your name");
             if (string.IsNullOrEmpty(membership))
                 ModelState.AddModelError("membership", "Please enter your membership");
-
+ 
             if (ModelState.IsValid)
             {
                 string nm = name + "," + membership;

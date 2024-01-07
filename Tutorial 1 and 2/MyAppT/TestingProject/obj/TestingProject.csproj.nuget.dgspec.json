@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\TestingProject\\TestingProject.csproj": {}
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\TestingProject\\TestingProject.csproj": {}
   },
   "projects": {
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\MyAppT\\MyAppT.csproj": {
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\MyAppT\\MyAppT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\MyAppT\\MyAppT.csproj",
+        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\MyAppT\\MyAppT.csproj",
         "projectName": "MyAppT",
-        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\MyAppT\\MyAppT.csproj",
+        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\MyAppT\\MyAppT.csproj",
         "packagesPath": "C:\\Users\\Avita\\.nuget\\packages\\",
-        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\MyAppT\\obj\\",
+        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\MyAppT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Avita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,16 +38,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -56,7 +56,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,25 +69,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\TestingProject\\TestingProject.csproj": {
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\TestingProject\\TestingProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\TestingProject\\TestingProject.csproj",
+        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\TestingProject\\TestingProject.csproj",
         "projectName": "TestingProject",
-        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\TestingProject\\TestingProject.csproj",
+        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\TestingProject\\TestingProject.csproj",
         "packagesPath": "C:\\Users\\Avita\\.nuget\\packages\\",
-        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\TestingProject\\obj\\",
+        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\TestingProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Avita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -94,11 +95,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\MyAppT\\MyAppT.csproj": {
-                "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xUnit Testing in ASP.NET Core\\MyAppT\\MyAppT\\MyAppT.csproj"
+              "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\MyAppT\\MyAppT.csproj": {
+                "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\MyAppT\\MyAppT.csproj"
               }
             }
           }
@@ -110,26 +111,26 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.8.3, )"
+              "version": "[17.8.0, )"
             },
             "Moq": {
               "target": "Package",
-              "version": "[4.15.2, )"
+              "version": "[4.20.70, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.6.4, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.5.6, )"
             }
           },
           "imports": [
@@ -138,19 +139,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

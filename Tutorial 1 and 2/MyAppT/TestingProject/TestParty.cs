@@ -1,6 +1,6 @@
-﻿using Xunit;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MyAppT.Controllers;
+using Xunit;
 
 namespace TestingProject
 {
