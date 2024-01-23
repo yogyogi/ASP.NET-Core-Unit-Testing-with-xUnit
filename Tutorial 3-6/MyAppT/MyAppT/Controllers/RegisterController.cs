@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using MyAppT.Models;
 
 namespace MyAppT.Controllers
@@ -43,6 +42,7 @@ namespace MyAppT.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(Register register)
         {
             if (ModelState.IsValid)

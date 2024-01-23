@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MyAppT.Infrastructure;
 using Xunit;
-using MyAppT.Infrastructure;
 
 namespace TestingProject
 {
@@ -11,7 +8,7 @@ namespace TestingProject
         [Fact]
         public void Test_Predict()
         {
-            // Arrange
+            // Arrange     
             TeslaStock TS = new TeslaStock();
 
             // Act

@@ -1,13 +1,10 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium;
 using Xunit;
 
 namespace UITestingProject
 {
-    public class UITest: IDisposable
+    public class UITest : IDisposable
     {
         private readonly IWebDriver driver;
         public UITest()
@@ -23,7 +20,7 @@ namespace UITestingProject
         [Fact]
         public void Create_GET_ReturnsCreateView()
         {
-            driver.Navigate().GoToUrl("https://localhost:44386/Register/Create");
+            driver.Navigate().GoToUrl("https://localhost:7195/Register/Create");
 
             Assert.Equal("Create Record - MyAppT", driver.Title);
             Assert.Contains("Create Record", driver.PageSource);
@@ -32,7 +29,7 @@ namespace UITestingProject
         [Fact]
         public void Create_POST_InvalidModel()
         {
-            driver.Navigate().GoToUrl("https://localhost:44386/Register/Create");
+            driver.Navigate().GoToUrl("https://localhost:7195/Register/Create");
 
             driver.FindElement(By.Id("Name")).SendKeys("Test");
 
@@ -48,7 +45,7 @@ namespace UITestingProject
         [Fact]
         public void Create_POST_ValidModel()
         {
-            driver.Navigate().GoToUrl("https://localhost:44386/Register/Create");
+            driver.Navigate().GoToUrl("https://localhost:7195/Register/Create");
 
             driver.FindElement(By.Id("Name")).SendKeys("Test");
 

@@ -1,16 +1,14 @@
-﻿using Microsoft.Net.Http.Headers;
-using MyAppT;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
+using MyAppT.Models;
 using Xunit;
 
 namespace IntegrationTestingProject
 {
-    public class RegisterControllerIntegrationTests : IClassFixture<TestingWebAppFactory<Startup>>
+    public class RegisterControllerIntegrationTests : IClassFixture<TestingWebAppFactory<Program>>
     {
         private readonly HttpClient _client;
-        public RegisterControllerIntegrationTests(TestingWebAppFactory<Startup> factory)
+        public RegisterControllerIntegrationTests(TestingWebAppFactory<Program> factory)
         {
             _client = factory.CreateClient();
         }
@@ -48,17 +46,17 @@ namespace IntegrationTestingProject
             // Arrange
             var initialRes = await _client.GetAsync("/Register/Create");
             var antiForgeryVal = await AntiForgeryTokenExtractor.ExtractAntiForgeryValues(initialRes);
-            
+
             var postRequest = new HttpRequestMessage(HttpMethod.Post, "/Register/Create");
-            
+
             postRequest.Headers.Add("Cookie", new CookieHeaderValue(AntiForgeryTokenExtractor.Cookie, antiForgeryVal.cookie).ToString());
-            
+
             var formModel = new Dictionary<string, string>
-            {
-                { AntiForgeryTokenExtractor.Field, antiForgeryVal.field },
-                { "Name", "New Person" },
-                { "Age", "25" }
-            };
+                                {
+                                    { AntiForgeryTokenExtractor.Field, antiForgeryVal.field },
+                                    { "Name", "New Person" },
+                                    { "Age", "25" }
+                                };
             postRequest.Content = new FormUrlEncodedContent(formModel);
 
             // Act
@@ -76,17 +74,17 @@ namespace IntegrationTestingProject
             // Arrange
             var initialRes = await _client.GetAsync("/Register/Create");
             var antiForgeryVal = await AntiForgeryTokenExtractor.ExtractAntiForgeryValues(initialRes);
-            
+
             var postRequest = new HttpRequestMessage(HttpMethod.Post, "/Register/Create");
-            
+
             postRequest.Headers.Add("Cookie", new CookieHeaderValue(AntiForgeryTokenExtractor.Cookie, antiForgeryVal.cookie).ToString());
-            
+
             var formModel = new Dictionary<string, string>
-            {
-                { AntiForgeryTokenExtractor.Field, antiForgeryVal.field },
-                { "Name", "New Person" },
-                { "Age", "45" }
-            };
+                                {
+                                    { AntiForgeryTokenExtractor.Field, antiForgeryVal.field },
+                                    { "Name", "New Person" },
+                                    { "Age", "45" }
+                                };
             postRequest.Content = new FormUrlEncodedContent(formModel);
 
             // Act
@@ -97,6 +95,103 @@ namespace IntegrationTestingProject
             var responseString = await response.Content.ReadAsStringAsync();
             Assert.Contains("New Person", responseString);
             Assert.Contains("45", responseString);
+        }
+
+        [Fact]
+        public async Task Update_GET_Action()
+        {
+            // Arrange
+            int testId = 1;
+
+            // Act
+            var response = await _client.GetAsync($"/Register/Update/{testId}");
+
+            // Assert
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.Contains("1", responseString);
+            Assert.Contains("Test One", responseString);
+            Assert.Contains("40", responseString);
+        }
+
+        [Fact]
+        public async Task Update_POST_Action_InvalidModel()
+        {
+            // Arrange
+            int testId = 1;
+
+            var initialRes = await _client.GetAsync($"/Register/Update/{testId}");
+            var antiForgeryVal = await AntiForgeryTokenExtractor.ExtractAntiForgeryValues(initialRes);
+
+            var postRequest = new HttpRequestMessage(HttpMethod.Post, $"/Register/Update");
+
+            postRequest.Headers.Add("Cookie", new CookieHeaderValue(AntiForgeryTokenExtractor.Cookie, antiForgeryVal.cookie).ToString());
+
+            var formModel = new Dictionary<string, string>
+                                {
+                                    { AntiForgeryTokenExtractor.Field, antiForgeryVal.field },
+                                    { "Id", $"{testId}" },
+                                    { "Name", "Test One" },
+                                    { "Age", "25" }
+                                };
+            postRequest.Content = new FormUrlEncodedContent(formModel);
+
+            // Act
+            var response = await _client.SendAsync(postRequest);
+
+            // Assert
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.Contains("The field Age must be between 40 and 60", responseString);
+        }
+
+        [Fact]
+        public async Task Update_POST_Action_ValidModel()
+        {
+            // Arrange
+            int testId = 2;
+            var initialRes = await _client.GetAsync($"/Register/Update/{testId}");
+            var antiForgeryVal = await AntiForgeryTokenExtractor.ExtractAntiForgeryValues(initialRes);
+
+            var postRequest = new HttpRequestMessage(HttpMethod.Post, "/Register/Update");
+
+            postRequest.Headers.Add("Cookie", new CookieHeaderValue(AntiForgeryTokenExtractor.Cookie, antiForgeryVal.cookie).ToString());
+
+            var formModel = new Dictionary<string, string>
+                                {
+                                    { AntiForgeryTokenExtractor.Field, antiForgeryVal.field },
+                                    { "Id", $"{testId}" },
+                                    { "Name", "New Person" },
+                                    { "Age", "45" }
+                                };
+            postRequest.Content = new FormUrlEncodedContent(formModel);
+
+            // Act
+            var response = await _client.SendAsync(postRequest);
+
+            // Assert
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.Contains("2", responseString);
+            Assert.Contains("New Person", responseString);
+            Assert.Contains("45", responseString);
+        }
+
+        [Fact]
+        public async Task Delete_POST_Action()
+        {
+            // Arrange
+            int testId = 3;
+            var postRequest = new HttpRequestMessage(HttpMethod.Post, $"/Register/Delete/{testId}");
+
+            // Act
+            var response = await _client.SendAsync(postRequest);
+
+            // Assert
+            response.EnsureSuccessStatusCode();
+            var responseString = await response.Content.ReadAsStringAsync();
+            Assert.DoesNotContain("Test Three", responseString);
+            Assert.DoesNotContain("60", responseString);
         }
     }
 }

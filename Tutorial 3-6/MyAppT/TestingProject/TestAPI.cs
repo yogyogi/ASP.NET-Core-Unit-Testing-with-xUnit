@@ -3,8 +3,6 @@ using Moq;
 using MyAppT.Controllers;
 using MyAppT.Infrastructure;
 using MyAppT.Models;
-using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace TestingProject
@@ -26,30 +24,33 @@ namespace TestingProject
             var model = Assert.IsAssignableFrom<IEnumerable<Reservation>>(result);
             Assert.Equal(3, model.Count());
         }
+
         private static IEnumerable<Reservation> Multiple()
         {
-            var r = new List<Reservation>();
-            r.Add(new Reservation()
+            var r = new List<Reservation>
             {
-                Id = 1,
-                Name = "Test One",
-                StartLocation = "SL1",
-                EndLocation = "EL1"
-            });
-            r.Add(new Reservation()
-            {
-                Id = 2,
-                Name = "Test Two",
-                StartLocation = "SL2",
-                EndLocation = "EL2"
-            });
-            r.Add(new Reservation()
-            {
-                Id = 3,
-                Name = "Test Three",
-                StartLocation = "SL3",
-                EndLocation = "EL3"
-            });
+                new Reservation()
+                {
+                    Id = 1,
+                    Name = "Test One",
+                    StartLocation = "SL1",
+                    EndLocation = "EL1"
+                },
+                new Reservation()
+                {
+                    Id = 2,
+                    Name = "Test Two",
+                    StartLocation = "SL2",
+                    EndLocation = "EL2"
+                },
+                new Reservation()
+                {
+                    Id = 3,
+                    Name = "Test Three",
+                    StartLocation = "SL3",
+                    EndLocation = "EL3"
+                }
+            };
             return r;
         }
 

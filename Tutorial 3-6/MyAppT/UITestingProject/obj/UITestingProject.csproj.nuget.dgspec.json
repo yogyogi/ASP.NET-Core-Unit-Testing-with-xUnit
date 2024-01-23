@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xunit ef core4\\MyAppT\\UITestingProject\\UITestingProject.csproj": {}
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\UITestingProject\\UITestingProject.csproj": {}
   },
   "projects": {
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xunit ef core4\\MyAppT\\UITestingProject\\UITestingProject.csproj": {
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\UITestingProject\\UITestingProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xunit ef core4\\MyAppT\\UITestingProject\\UITestingProject.csproj",
+        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\UITestingProject\\UITestingProject.csproj",
         "projectName": "UITestingProject",
-        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xunit ef core4\\MyAppT\\UITestingProject\\UITestingProject.csproj",
+        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\UITestingProject\\UITestingProject.csproj",
         "packagesPath": "C:\\Users\\Avita\\.nuget\\packages\\",
-        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Testing\\xunit ef core4\\MyAppT\\UITestingProject\\obj\\",
+        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\Hosting\\MyAppT\\UITestingProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Avita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,12 +38,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.8.3, )"
+              "version": "[17.8.0, )"
             },
             "Selenium.Chrome.WebDriver": {
               "target": "Package",
@@ -51,17 +51,17 @@
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[4.16.2, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.6.6, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.5.6, )"
             }
           },
           "imports": [
@@ -70,7 +70,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

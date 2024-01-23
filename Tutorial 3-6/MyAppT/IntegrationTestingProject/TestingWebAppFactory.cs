@@ -2,17 +2,11 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MyAppT;
 using MyAppT.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntegrationTestingProject
 {
-    public class TestingWebAppFactory<T> : WebApplicationFactory<Startup>
+    public class TestingWebAppFactory<T> : WebApplicationFactory<Program>
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
@@ -47,15 +41,40 @@ namespace IntegrationTestingProject
                         try
                         {
                             appContext.Database.EnsureCreated();
+                            Seed(appContext);
                         }
                         catch (Exception ex)
                         {
-                            //Log errors or do anything you think it's needed
+                            //Log errors
                             throw;
                         }
                     }
                 }
+
             });
+        }
+
+        private void Seed(AppDbContext context)
+        {
+            var one = new Register()
+            {
+                Name = "Test One",
+                Age = 40
+            };
+
+            var two = new Register()
+            {
+                Name = "Test Two",
+                Age = 50
+            };
+
+            var three = new Register()
+            {
+                Name = "Test Three",
+                Age = 60
+            };
+            context.AddRange(one, two, three);
+            context.SaveChanges();
         }
     }
 }

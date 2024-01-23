@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyAppT
+build_property.RootNamespace = MyAppT
+build_property.ProjectDir = E:\Yogesh\SEO\Yogihosting\codes-new\Hosting\MyAppT\MyAppT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Yogesh\SEO\Yogihosting\codes-new\Hosting\MyAppT\MyAppT
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Party/Entry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydHlcRW50cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Register/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Register/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Register/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Registration/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Registration/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Registration/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Yogesh/SEO/Yogihosting/codes-new/Hosting/MyAppT/MyAppT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bw2yextjk8
